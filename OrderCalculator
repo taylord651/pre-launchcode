@@ -1,0 +1,15 @@
+#Ask customer for order
+order = input("Welcome, what can I get for you today?: ")
+
+#Find cost of menu items of customer order
+hamburger = 3.00
+cheeseburger = 4.00
+french_fries = 2.00
+soda = 2.00
+salad = 5.00
+
+#Repeat order back to customer
+print("You ordered " + order)
+
+#Calculate customer of order total
+print("Your total is $" + str(hamburger + french_fries))
